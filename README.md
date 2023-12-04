@@ -1,1 +1,1 @@
-### Causla Inference for the Web
+### Causal Inference for the Web
