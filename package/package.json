@@ -1,6 +1,6 @@
 {
   "name": "causal-inference.js",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "description": "Causal Inference Methods for the Web",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,8 @@
     "ts-jest": "^29.1.1",
     "ts-node": "^10.9.1",
     "typescript": "^5.3.2"
+  },
+  "dependencies": {
+    "causal-inference.js": "^1.0.1"
   }
 }
