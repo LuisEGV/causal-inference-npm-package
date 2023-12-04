@@ -1,8 +1,5 @@
 //Calculate Effect Of Treatment given dataset
-export default function getEffectAB(
-  controlMean: number,
-  interventionMean: number
-) {
+function getEffectAB(controlMean: number, interventionMean: number) {
   ///Edge Cases
   if (typeof controlMean !== "number") {
     throw new Error(
@@ -23,3 +20,5 @@ export default function getEffectAB(
 
   return difference;
 }
+
+module.exports = getEffectAB;
