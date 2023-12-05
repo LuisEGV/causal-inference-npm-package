@@ -1,24 +1,5 @@
-//Calculate Effect Of Treatment given dataset
-function getEffectAB(controlMean: number, interventionMean: number) {
-  ///Edge Cases
-  if (typeof controlMean !== "number") {
-    throw new Error(
-      "Make sure mean of A is a number, it currently is " + typeof controlMean
-    );
-  }
+//Import Statements
+import { getEffectAB } from "./functions/ab-testing/getEffectAB.js";
 
-  if (typeof interventionMean !== "number") {
-    throw new Error(
-      "Make sure mean of A is a number, it currently is " +
-        typeof interventionMean
-    );
-  }
-
-  //absolute diferrence
-
-  const difference = interventionMean - controlMean;
-
-  return difference;
-}
-
-module.exports = getEffectAB;
+//Export functions
+export { getEffectAB };
