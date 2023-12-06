@@ -1,1 +1,1 @@
-export { getEffectAB } from "./functions/ab-testing/getEffectAB";
+export * from "./functions";
