@@ -1,4 +1,4 @@
-import { getEffectAB } from "../functions/ab-testing/getEffectAB";
+import { getEffectAB } from "../src/functions/ab-testing/getEffectAB";
 
 test("no effect", () => {
   const result = getEffectAB(0, 0);
