@@ -1,5 +1,3 @@
-//Import Statements
 import { getEffectAB } from "./functions/ab-testing/getEffectAB";
 
-//Export functions
-export { getEffectAB };
+console.log(getEffectAB(1, 0));
