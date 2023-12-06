@@ -1,5 +1,5 @@
 //Calculate Effect Of Treatment given dataset
-export const getEffectAB = (controlMean: number, interventionMean: number) => {
+const getEffectAB = (controlMean: number, interventionMean: number) => {
   ///Edge Cases
   if (typeof controlMean !== "number") {
     throw new Error(
@@ -20,3 +20,5 @@ export const getEffectAB = (controlMean: number, interventionMean: number) => {
 
   return difference;
 };
+
+export { getEffectAB };
