@@ -1,6 +1,6 @@
 {
   "name": "causal-inference.js",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Causal Inference Methods for the Web",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
