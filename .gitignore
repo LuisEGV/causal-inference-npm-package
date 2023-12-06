@@ -1,8 +1,8 @@
-package/node_modules
+/node_modules
 
 # Ignore test-related files
-package//coverage.data
-package//coverage/
+/coverage.data
+/coverage/
 
 # Build files
-package//dist
+/dist
